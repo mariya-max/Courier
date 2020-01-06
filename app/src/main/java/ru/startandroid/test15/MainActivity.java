@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Courier_> courierList;
     Data data;
     RealmController realmController;
-    //Courier courier;
+    
 
 
     @Override
