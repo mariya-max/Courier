@@ -36,7 +36,6 @@ public class CourierAdapter extends RecyclerView.Adapter<CourierAdapter.ViewHold
 
         holder.fio.setText("ФИО: " + worker.getFio());
         holder.id.setText("ID: " + worker.getCourierId());
-        holder.pass.setText("Pass: " + worker.getPass());
 
         if (worker.getPhoneNumber() == null) {
             holder.phone.setText("Нет телефона");
